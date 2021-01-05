@@ -29,7 +29,7 @@ export default {
 
 <style scoped lang="scss">
 #main-block {
-    height: 150px;
+    height: 100px;
 }
 .btn {
     display: block;

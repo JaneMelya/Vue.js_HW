@@ -6,6 +6,7 @@
     <Main/>
     <Form/>
     <Form2/>
+    <Input/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import Header from "./components/header/Header.vue";
 import Main from "./components/main/Main.vue";
 import Form from "./components/main/Form.vue";
 import Form2 from "./components/main/Form2.vue";
+import Input from "./components/main/Input.vue";
 
 export default {
   name: "App",
@@ -22,7 +24,8 @@ export default {
     Header,
     Main,
     Form,
-    Form2
+    Form2,
+    Input
   }
 }
 </script>
@@ -34,6 +37,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 40px;
 }
 </style>

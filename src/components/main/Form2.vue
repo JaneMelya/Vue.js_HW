@@ -45,10 +45,10 @@ export default {
 
 <style scoped lang="scss">
 .form {
-    height: 250px;
+    height: 200px;
 }
 .color-option {
-    font-size: 30px;
+    font-size: 20px;
 }
 .user-text {
     width: 400px;
